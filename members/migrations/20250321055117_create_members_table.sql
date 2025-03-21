@@ -4,5 +4,5 @@ CREATE TABLE members(
     PRIMARY KEY (id),
     firstname TEXT,
     surname TEXT,
-    created_at TIMESTAMP NOT NULL
+    created_at TIMESTAMPTZ NOT NULL
 );
